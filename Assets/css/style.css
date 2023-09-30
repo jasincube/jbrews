@@ -1,3 +1,4 @@
+
 .rcorners2 {
     border-radius: 15px 50px 30px;
     background: #73AD21;
@@ -79,3 +80,120 @@
       }
   }
  
+
+
+
+
+
+body{
+    background-image: url(../images/ellipse.png);
+    background-repeat: no-repeat;
+}
+/* navbar  */
+.navlogo{
+    width:192px;
+    height:146px;
+    margin-left: 71px;
+    margin-top:15px;
+}
+.navbar-collapse{
+font-family: David Libre;
+font-size: 23px;
+font-style: normal;
+font-weight: 500;
+justify-content: right;
+margin-top: -55px;
+margin-right:40px;
+}
+.navbar-nav{
+    gap:10px;
+}
+.nav-link:hover{
+    color: orange !important;
+}
+
+@media screen and (max-width:1000px) {
+    
+    body{
+        background-image: none;
+    }
+    .navlogo{
+        width:120px;
+        height:90px;
+        margin-left: 10px;
+        margin-top:0px;
+    }
+    .navbar-collapse{
+        font-family: David Libre;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        justify-content: right;
+        margin-top: 10px;
+        margin-left:10px;
+        }
+        .navbar-nav{
+            gap:0px;
+        }
+        .nav-link:hover{
+            color: orange !important;
+        }
+}
+/* navbar  */
+
+/*welcome*/
+
+.welcome{
+    position: relative;
+    top: 0%;
+}
+
+.welcome h2{
+    font-size:300%;
+    font-family:david libre;
+    font-weight: 500;
+}
+
+.welcome a{
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    border-radius: 10px 2px ;
+    font-family: david libre;
+}
+
+.full-leaf{
+    width: 200px;
+    z-index: -1;
+    position: relative;
+    top: 15%;
+    left: -10%;
+}
+
+.gar-1{
+    width: 60px;
+    position: relative;
+    top: -25px;
+    left:-90px;
+}
+
+.gar-2{
+    width: 50px;
+    position: relative;
+    top: 20px;
+    left: -52px;
+    transform: rotate(425deg);
+}
+
+
+@media (max-width:768px){
+    .welcome h2{
+        font-size:x-large;
+        font-weight: 900;
+    }
+}
+/*end of welcome*/
+
