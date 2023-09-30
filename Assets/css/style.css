@@ -1,0 +1,81 @@
+.rcorners2 {
+    border-radius: 15px 50px 30px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+}
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 30px;
+    width: 300px;
+    height: 500px;
+    border-radius:50px 15px 50px 30px;
+  padding: 20px; 
+  width: 300px;
+  height: 500px; 
+  }
+  .image2 {
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    
+    width: 100px;
+    height: 100px;
+    left: 0;
+    
+  }
+  .image3 {
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    
+    width: 100px;
+    height: 100px;
+    left: 250px;
+    z-index: -5;
+    opacity: 0.5;
+    
+  }
+  .image4 {
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    
+    width: 150px;
+    height: 100px;
+    left: 0px;
+    z-index: -5;
+    opacity: .5;
+  }
+  .image5 {
+    position: absolute;
+    top: 370px;
+    left: 0px;
+    
+    width: 100px;
+    height: 100px;
+    left: 270px;
+    z-index: -5;
+    opacity: .5;
+  }
+
+  @media (max-width:400px) {
+    .image2 {
+        position: absolute;
+        top: 400px;
+        left: 30px;
+        
+        width: 150px;
+        height: 150px;
+        left: 0;
+        
+      }
+  }
+ 
