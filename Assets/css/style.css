@@ -194,6 +194,14 @@ margin-right:40px;
         font-size:x-large;
         font-weight: 900;
     }
+    .welcome{
+        left: 35%;
+        top: -35%;
+    }
+    .full-leaf{
+        top: 0%;
+        left: 20%;
+    }
 }
 /*end of welcome*/
 
