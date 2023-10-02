@@ -194,6 +194,22 @@ margin-right:40px;
         font-size:x-large;
         font-weight: 900;
     }
+    .welcome{
+        text-align: center;
+        top: -35%;
+    }
+    .full-leaf{
+        width: 150px;
+        top: 0%;
+        left: 20%;
+    }
+}
+
+@media (max-width:512px) {
+    .all{
+        width: 350px;
+    }
+    
 }
 /*end of welcome*/
 
