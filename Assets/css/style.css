@@ -1,4 +1,5 @@
 
+/* hero section */
 .rcorners2 {
     border-radius: 15px 50px 30px;
     background: #73AD21;
@@ -19,50 +20,50 @@
     height: 500px;
     border-radius:50px 15px 50px 30px;
   padding: 20px; 
-  width: 300px;
-  height: 500px; 
+  width: 400px;
+  height: 600px; 
   }
   .image2 {
     position: absolute;
-    top: 400px;
-    left: 30px;
+    top: 450px;
+    left: 0px;
     
-    width: 100px;
-    height: 100px;
-    left: 0;
+    width: 150px;
+    height: 150px;
+    left: -40px;
     
   }
   .image3 {
     position: absolute;
-    top: -20px;
+    top: -50px;
     left: 30px;
     
-    width: 100px;
-    height: 100px;
-    left: 250px;
+    width: 200px;
+    height: 200px;
+    left: 290px;
     z-index: -5;
     opacity: 0.5;
     
   }
   .image4 {
     position: absolute;
-    top: -30px;
+    top: -40px;
     left: 0px;
     
-    width: 150px;
-    height: 100px;
-    left: 0px;
+    width: 200px;
+    height: 150px;
+    left: -20px;
     z-index: -5;
     opacity: .5;
   }
   .image5 {
     position: absolute;
-    top: 370px;
+    top: 350px;
     left: 0px;
     
-    width: 100px;
-    height: 100px;
-    left: 270px;
+    width: 150px;
+    height: 200px;
+    left: 350px;
     z-index: -5;
     opacity: .5;
   }
@@ -79,6 +80,24 @@
         
       }
   }
+ 
+
+ @media (max-width:415px) {
+    .image2 {
+        position: absolute;
+        top: 450px;
+        left: 0px;
+        
+        width: 150px;
+        height: 150px;
+        left: 0px;
+        
+ }
+}
+ 
+   
+ /* hero section end */
+
  
 
 
@@ -195,6 +214,7 @@ margin-right:40px;
         font-weight: 900;
     }
     .welcome{
+
         text-align: center;
         top: -35%;
     }
@@ -209,7 +229,15 @@ margin-right:40px;
     .all{
         width: 350px;
     }
-    
+
+        left: 35%;
+        top: -35%;
+    }
+    .full-leaf{
+        top: 0%;
+        left: 20%;
+    }
 }
 /*end of welcome*/
+
 
