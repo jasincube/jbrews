@@ -92,7 +92,67 @@
  }
 }
  
-   
- 
-
- 
+ @media (max-width:500px) {
+    .image3 {
+      position: absolute;
+      top: -20px;
+      left: 40px;
+      
+      width: 100px;
+      height: 100px;
+      left: 250px;
+      z-index: -5;
+      opacity: 0.5;
+      
+    }
+    .image4 {
+      position: absolute;
+      top: -40px;
+      left: 0px;
+      
+      width: 200px;
+      height: 150px;
+      left: 20px;
+      z-index: -5;
+      opacity: .5;
+    }
+    .image5 {
+      position: absolute;
+      top: 300px;
+      left: 40px;
+      
+      width: 100px;
+      height: 150px;
+      left: 250px;
+      z-index: -5;
+      opacity: .5;
+    }
+    .image1 {
+      position: relative;
+      top: 0;
+      left: 30px;
+      width: 100px;
+      height: 300px;
+      border-radius:50px 15px 50px 30px;
+    padding: 20px; 
+    width: 300px;
+    height: 500px; 
+    }
+  
+    .image2 {
+      position: absolute;
+      top: 400px;
+      left: 0px;
+      
+      width: 100px;
+      height: 100px;
+      left: 10px;
+      
+    }
+    .parent {
+      position: relative;
+      top: 100px;
+      left: -20px;
+      
+    }
+  }
