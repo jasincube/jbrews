@@ -172,6 +172,8 @@ margin-right:40px;
  
 
  @media (max-width:500px) {
+    
+    
     .image3 {
       position: absolute;
       top: -20px;
@@ -248,10 +250,14 @@ margin-right:40px;
     /* color: grey ; */
     opacity: 70%;
   }
-  @media (max-width:772px) {
+  @media (max-width:768px) {
     .heading-center{
-        font-size: 50px;
+        text-align: center;
+        font-size: 30px;
         margin-top:0px !important;
+      }
+      .p-center{
+        text-align: center;
       }
   }
 
