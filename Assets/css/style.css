@@ -1,5 +1,3 @@
-
-/* hero section */
 .rcorners2 {
     border-radius: 15px 50px 30px;
     background: #73AD21;
@@ -81,7 +79,6 @@
       }
   }
  
-
  @media (max-width:415px) {
     .image2 {
         position: absolute;
@@ -96,6 +93,9 @@
 }
  
    
+ 
+
+ 
  /* hero section end */
 
  
@@ -229,10 +229,6 @@ margin-right:40px;
     .all{
         width: 350px;
     }
-
-        left: 35%;
-        top: -35%;
-    }
     .full-leaf{
         top: 0%;
         left: 20%;
@@ -240,4 +236,44 @@ margin-right:40px;
 }
 /*end of welcome*/
 
+/*location*/
+.con-us{
+    background-color: #051242;
+    color: white;
+}
 
+.con-us h2{
+    padding-top: 20px;
+}
+
+.con-us input{
+    height: 30px;
+    border: none;
+    border-radius: 26px;
+    width: 90%;
+    background-color: #7f7f7f;
+}
+
+.con-us ::placeholder{
+    color: white;
+    padding: 5px;
+}
+
+.msg input{
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    
+}
+
+.con-us a{
+    color: white;
+    text-decoration: none;
+    background-color:dodgerblue;
+    padding: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+/* end of location */
