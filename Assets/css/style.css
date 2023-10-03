@@ -1,5 +1,17 @@
+:root {
+    --base-font-size: 26px; /* Set your base font size here */
+    --base-font-one: 'Dancing Script', cursive;
+    --base-font-two:'Fuggles', cursive;
+    --base-font-three:'Kaushan Script', cursive;
+    --base-font-four:'Montserrat', sans-serif;
+    --base-font-five:'Pacifico', cursive;
 
- 
+  }
+  
+
+
+  
+
 
 
 
@@ -8,6 +20,7 @@
 body{
     background-image: url(../images/ellipse.png);
     background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
 }
 /* navbar  */
 .navlogo{
@@ -17,7 +30,7 @@ body{
     margin-top:15px;
 }
 .navbar-collapse{
-font-family: David Libre;
+/* font-family: David Libre; */
 font-size: 23px;
 font-style: normal;
 font-weight: 500;
@@ -44,10 +57,10 @@ margin-right:40px;
         margin-top:0px;
     }
     .navbar-collapse{
-        font-family: David Libre;
+        /* font-family: David Libre; */
         font-size: 19px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: bold;
         justify-content: right;
         margin-top: 10px;
         margin-left:10px;
@@ -229,10 +242,15 @@ margin-right:40px;
 
   /* the hero text top in mobile and center in desktop */
   .heading-center{
+    font-family: var(--base-font-five);
+    font-size: 5rem;
     margin-top:200px;
+    /* color: grey ; */
+    opacity: 70%;
   }
   @media (max-width:772px) {
     .heading-center{
+        font-size: 50px;
         margin-top:0px !important;
       }
   }
