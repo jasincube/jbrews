@@ -217,12 +217,16 @@ margin-right:40px;
     }
     .parent {
       position: relative;
-      top: 100px;
-      left: -20px;
+      top: 0px;
+      left: 0px;
       
     }
+    .text{
+        position: relative;
+        top: -100px;
+    }
   }
-
+ 
    
  /* hero section end */
 
