@@ -223,9 +223,20 @@ margin-right:40px;
     }
     .text{
         position: relative;
-        top: -100px;
+        
     }
   }
+
+  /* the hero text top in mobile and center in desktop */
+  .heading-center{
+    margin-top:200px;
+  }
+  @media (max-width:772px) {
+    .heading-center{
+        margin-top:0px !important;
+      }
+  }
+
  
    
  /* hero section end */
