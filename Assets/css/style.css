@@ -1,4 +1,66 @@
 
+ 
+
+
+
+
+
+body{
+    background-image: url(../images/ellipse.png);
+    background-repeat: no-repeat;
+}
+/* navbar  */
+.navlogo{
+    width:192px;
+    height:146px;
+    margin-left: 71px;
+    margin-top:15px;
+}
+.navbar-collapse{
+font-family: David Libre;
+font-size: 23px;
+font-style: normal;
+font-weight: 500;
+justify-content: right;
+margin-top: -55px;
+margin-right:40px;
+}
+.navbar-nav{
+    gap:10px;
+}
+.nav-link:hover{
+    color: orange !important;
+}
+
+@media screen and (max-width:1000px) {
+    
+    body{
+        background-image: none;
+    }
+    .navlogo{
+        width:120px;
+        height:90px;
+        margin-left: 10px;
+        margin-top:0px;
+    }
+    .navbar-collapse{
+        font-family: David Libre;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        justify-content: right;
+        margin-top: 10px;
+        margin-left:10px;
+        }
+        .navbar-nav{
+            gap:0px;
+        }
+        .nav-link:hover{
+            color: orange !important;
+        }
+}
+/* navbar  */
+
 /* hero section */
 .rcorners2 {
     border-radius: 15px 50px 30px;
@@ -164,67 +226,6 @@
    
  /* hero section end */
 
- 
-
-
-
-
-
-body{
-    background-image: url(../images/ellipse.png);
-    background-repeat: no-repeat;
-}
-/* navbar  */
-.navlogo{
-    width:192px;
-    height:146px;
-    margin-left: 71px;
-    margin-top:15px;
-}
-.navbar-collapse{
-font-family: David Libre;
-font-size: 23px;
-font-style: normal;
-font-weight: 500;
-justify-content: right;
-margin-top: -55px;
-margin-right:40px;
-}
-.navbar-nav{
-    gap:10px;
-}
-.nav-link:hover{
-    color: orange !important;
-}
-
-@media screen and (max-width:1000px) {
-    
-    body{
-        background-image: none;
-    }
-    .navlogo{
-        width:120px;
-        height:90px;
-        margin-left: 10px;
-        margin-top:0px;
-    }
-    .navbar-collapse{
-        font-family: David Libre;
-        font-size: 19px;
-        font-style: normal;
-        font-weight: 400;
-        justify-content: right;
-        margin-top: 10px;
-        margin-left:10px;
-        }
-        .navbar-nav{
-            gap:0px;
-        }
-        .nav-link:hover{
-            color: orange !important;
-        }
-}
-/* navbar  */
 
 /*welcome*/
 
@@ -296,9 +297,9 @@ margin-right:40px;
         width: 350px;
     }
 
-        left: 35%;
+        /* left: 35%;
         top: -35%;
-    }
+    } */
     .full-leaf{
         top: 0%;
         left: 20%;
