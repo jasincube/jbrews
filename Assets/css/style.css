@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+
+=======
 
 :root {
     --base-font-size: 26px; /* Set your base font size here */
@@ -353,45 +356,54 @@ margin-right:40px;
     }
 }
 /*end of welcome*/
+>>>>>>> 61fa61a4a06f27b77ead21c1bd981e58bac599a7
 
 /*location*/
+iframe{
+    width: 100%;
+}
+
 .con-us{
-    background-color: #051242;
-    color: white;
+    background-color: rgb(254, 245, 231);
+    color: black;
+    width: 100%;
 }
-
+  
 .con-us h2{
-    padding-top: 20px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    color: black;
 }
 
-.con-us input{
-    height: 30px;
-    border: none;
-    border-radius: 26px;
-    width: 90%;
-    background-color: #7f7f7f;
-}
-
-.con-us ::placeholder{
-    color: white;
-    padding: 5px;
-}
-
-.msg input{
-    border-radius: 0px;
-    background-color: transparent;
-    border-bottom: 1px solid white;
-    
-}
-
+  
 .con-us a{
     color: white;
     text-decoration: none;
     background-color:dodgerblue;
-    padding: 1px;
+    padding: 6px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 10px;
 }
+
+.input {
+    border: 2px solid transparent;
+    width: 90%;
+    height: 2.3em;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+
+  .input:hover,
+  .input:focus {
+    border: 2px solid #4A9DEC;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+  }
 
 /* end of location */
