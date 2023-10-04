@@ -1,279 +1,51 @@
-.rcorners2 {
-    border-radius: 15px 50px 30px;
-    background: #73AD21;
-    padding: 20px; 
-    width: 200px;
-    height: 150px; 
-}
-.parent {
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-  .image1 {
-    position: relative;
-    top: 0;
-    left: 30px;
-    width: 300px;
-    height: 500px;
-    border-radius:50px 15px 50px 30px;
-  padding: 20px; 
-  width: 400px;
-  height: 600px; 
-  }
-  .image2 {
-    position: absolute;
-    top: 450px;
-    left: 0px;
-    
-    width: 150px;
-    height: 150px;
-    left: -40px;
-    
-  }
-  .image3 {
-    position: absolute;
-    top: -50px;
-    left: 30px;
-    
-    width: 200px;
-    height: 200px;
-    left: 290px;
-    z-index: -5;
-    opacity: 0.5;
-    
-  }
-  .image4 {
-    position: absolute;
-    top: -40px;
-    left: 0px;
-    
-    width: 200px;
-    height: 150px;
-    left: -20px;
-    z-index: -5;
-    opacity: .5;
-  }
-  .image5 {
-    position: absolute;
-    top: 350px;
-    left: 0px;
-    
-    width: 150px;
-    height: 200px;
-    left: 350px;
-    z-index: -5;
-    opacity: .5;
-  }
 
-  @media (max-width:400px) {
-    .image2 {
-        position: absolute;
-        top: 400px;
-        left: 30px;
-        
-        width: 150px;
-        height: 150px;
-        left: 0;
-        
-      }
-  }
- 
- @media (max-width:415px) {
-    .image2 {
-        position: absolute;
-        top: 450px;
-        left: 0px;
-        
-        width: 150px;
-        height: 150px;
-        left: 0px;
-        
- }
-}
- 
-   
- 
-
- 
- /* hero section end */
-
- 
-
-
-
-
-
-body{
-    background-image: url(../images/ellipse.png);
-    background-repeat: no-repeat;
-}
-/* navbar  */
-.navlogo{
-    width:192px;
-    height:146px;
-    margin-left: 71px;
-    margin-top:15px;
-}
-.navbar-collapse{
-font-family: David Libre;
-font-size: 23px;
-font-style: normal;
-font-weight: 500;
-justify-content: right;
-margin-top: -55px;
-margin-right:40px;
-}
-.navbar-nav{
-    gap:10px;
-}
-.nav-link:hover{
-    color: orange !important;
-}
-
-@media screen and (max-width:1000px) {
-    
-    body{
-        background-image: none;
-    }
-    .navlogo{
-        width:120px;
-        height:90px;
-        margin-left: 10px;
-        margin-top:0px;
-    }
-    .navbar-collapse{
-        font-family: David Libre;
-        font-size: 19px;
-        font-style: normal;
-        font-weight: 400;
-        justify-content: right;
-        margin-top: 10px;
-        margin-left:10px;
-        }
-        .navbar-nav{
-            gap:0px;
-        }
-        .nav-link:hover{
-            color: orange !important;
-        }
-}
-/* navbar  */
-
-/*welcome*/
-
-.welcome{
-    position: relative;
-    top: 0%;
-}
-
-.welcome h2{
-    font-size:300%;
-    font-family:david libre;
-    font-weight: 500;
-}
-
-.welcome a{
-    text-decoration: none;
-    background-color: black;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: white;
-    border-radius: 10px 2px ;
-    font-family: david libre;
-}
-
-.full-leaf{
-    width: 200px;
-    z-index: -1;
-    position: relative;
-    top: 15%;
-    left: -10%;
-}
-
-.gar-1{
-    width: 60px;
-    position: relative;
-    top: -25px;
-    left:-90px;
-}
-
-.gar-2{
-    width: 50px;
-    position: relative;
-    top: 20px;
-    left: -52px;
-    transform: rotate(425deg);
-}
-
-
-@media (max-width:768px){
-    .welcome h2{
-        font-size:x-large;
-        font-weight: 900;
-    }
-    .welcome{
-
-        text-align: center;
-        top: -35%;
-    }
-    .full-leaf{
-        width: 150px;
-        top: 0%;
-        left: 20%;
-    }
-}
-
-@media (max-width:512px) {
-    .all{
-        width: 350px;
-    }
-    .full-leaf{
-        top: 0%;
-        left: 20%;
-    }
-}
-/*end of welcome*/
 
 /*location*/
+iframe{
+    width: 100%;
+}
+
 .con-us{
-    background-color: #051242;
-    color: white;
+    background-color: rgb(254, 245, 231);
+    color: black;
+    width: 100%;
 }
-
+  
 .con-us h2{
-    padding-top: 20px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    color: black;
 }
 
-.con-us input{
-    height: 30px;
-    border: none;
-    border-radius: 26px;
-    width: 90%;
-    background-color: #7f7f7f;
-}
-
-.con-us ::placeholder{
-    color: white;
-    padding: 5px;
-}
-
-.msg input{
-    border-radius: 0px;
-    background-color: transparent;
-    border-bottom: 1px solid white;
-    
-}
-
+  
 .con-us a{
     color: white;
     text-decoration: none;
     background-color:dodgerblue;
-    padding: 1px;
+    padding: 6px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 10px;
 }
+
+.input {
+    border: 2px solid transparent;
+    width: 90%;
+    height: 2.3em;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+
+  .input:hover,
+  .input:focus {
+    border: 2px solid #4A9DEC;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+  }
 
 /* end of location */
