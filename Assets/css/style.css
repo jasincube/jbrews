@@ -1,5 +1,358 @@
 
+:root {
+    --base-font-size: 26px; /* Set your base font size here */
+    --base-font-one: 'Dancing Script', cursive;
+    --base-font-two:'Fuggles', cursive;
+    --base-font-three:'Kaushan Script', cursive;
+    --base-font-four:'Montserrat', sans-serif;
+    --base-font-five:'Pacifico', cursive;
 
+  }
+  
+
+
+  
+
+
+
+
+
+
+body{
+    background-image: url(../images/ellipse.png);
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+/* navbar  */
+.navlogo{
+    width:192px;
+    height:146px;
+    margin-left: 71px;
+    margin-top:15px;
+}
+.navbar-collapse{
+/* font-family: David Libre; */
+font-size: 23px;
+font-style: normal;
+font-weight: 500;
+justify-content: right;
+margin-top: -55px;
+margin-right:40px;
+}
+.navbar-nav{
+    gap:10px;
+}
+.nav-link:hover{
+    color: orange !important;
+}
+
+@media screen and (max-width:1000px) {
+    
+    body{
+        background-image: none;
+    }
+    .navlogo{
+        width:120px;
+        height:90px;
+        margin-left: 10px;
+        margin-top:0px;
+    }
+    .navbar-collapse{
+        /* font-family: David Libre; */
+        font-size: 19px;
+        font-style: normal;
+        font-weight: bold;
+        justify-content: right;
+        margin-top: 10px;
+        margin-left:10px;
+        }
+        .navbar-nav{
+            gap:0px;
+        }
+        .nav-link:hover{
+            color: orange !important;
+        }
+}
+/* navbar  */
+
+/* hero section */
+
+.rcorners2 {
+    border-radius: 15px 50px 30px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+}
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 30px;
+    width: 300px;
+    height: 500px;
+    border-radius:50px 15px 50px 30px;
+  padding: 20px; 
+  width: 400px;
+  height: 600px; 
+  }
+  .image2 {
+    position: absolute;
+    top: 450px;
+    left: 0px;
+    
+    width: 150px;
+    height: 150px;
+    left: -40px;
+    
+  }
+  .image3 {
+    position: absolute;
+    top: -50px;
+    left: 30px;
+    
+    width: 200px;
+    height: 200px;
+    left: 290px;
+    z-index: -5;
+    opacity: 0.5;
+    
+  }
+  .image4 {
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    
+    width: 200px;
+    height: 150px;
+    left: -20px;
+    z-index: -5;
+    opacity: .5;
+  }
+  .image5 {
+    position: absolute;
+    top: 350px;
+    left: 0px;
+    
+    width: 150px;
+    height: 200px;
+    left: 350px;
+    z-index: -5;
+    opacity: .5;
+  }
+
+  @media (max-width:400px) {
+    .image2 {
+        position: absolute;
+        top: 400px;
+        left: 30px;
+        
+        width: 150px;
+        height: 150px;
+        left: 0;
+        
+      }
+  }
+ 
+ @media (max-width:415px) {
+    .image2 {
+        position: absolute;
+        top: 450px;
+        left: 0px;
+        
+        width: 150px;
+        height: 150px;
+        left: 0px;
+        
+ }
+}
+ 
+
+   
+ 
+
+ 
+ /* hero section end */
+
+ 
+
+
+
+ @media (max-width:500px) {
+    
+    
+    .image3 {
+      position: absolute;
+      top: -20px;
+      left: 40px;
+      
+      width: 100px;
+      height: 100px;
+      left: 250px;
+      z-index: -5;
+      opacity: 0.5;
+      
+    }
+    .image4 {
+      position: absolute;
+      top: -40px;
+      left: 0px;
+      
+      width: 200px;
+      height: 150px;
+      left: 20px;
+      z-index: -5;
+      opacity: .5;
+    }
+    .image5 {
+      position: absolute;
+      top: 300px;
+      left: 40px;
+      
+      width: 100px;
+      height: 150px;
+      left: 250px;
+      z-index: -5;
+      opacity: .5;
+    }
+    .image1 {
+      position: relative;
+      top: 0;
+      left: 30px;
+      width: 100px;
+      height: 300px;
+      border-radius:50px 15px 50px 30px;
+    padding: 20px; 
+    width: 300px;
+    height: 500px; 
+    }
+  
+    .image2 {
+      position: absolute;
+      top: 400px;
+      left: 0px;
+      
+      width: 100px;
+      height: 100px;
+      left: 10px;
+      
+    }
+    .parent {
+      position: relative;
+      top: 0px;
+      left: 0px;
+      
+    }
+    .text{
+        position: relative;
+        
+    }
+  }
+
+  /* the hero text top in mobile and center in desktop */
+  .heading-center{
+    font-family: var(--base-font-five);
+    font-size: 5rem;
+    margin-top:200px;
+    /* color: grey ; */
+    opacity: 70%;
+  }
+  @media (max-width:768px) {
+    .heading-center{
+        text-align: center;
+        font-size: 30px;
+        margin-top:0px !important;
+      }
+      .p-center{
+        text-align: center;
+      }
+  }
+
+ 
+   
+ /* hero section end */
+
+
+/*welcome*/
+
+.welcome{
+    position: relative;
+    top: 0%;
+}
+
+.welcome h2{
+    font-size:300%;
+    font-family:david libre;
+    font-weight: 500;
+}
+
+.welcome a{
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    border-radius: 10px 2px ;
+    font-family: david libre;
+}
+
+.full-leaf{
+    width: 200px;
+    z-index: -1;
+    position: relative;
+    top: 15%;
+    left: -10%;
+}
+
+.gar-1{
+    width: 60px;
+    position: relative;
+    top: -25px;
+    left:-90px;
+}
+
+.gar-2{
+    width: 50px;
+    position: relative;
+    top: 20px;
+    left: -52px;
+    transform: rotate(425deg);
+}
+
+
+@media (max-width:768px){
+    .welcome h2{
+        font-size:x-large;
+        font-weight: 900;
+    }
+    .welcome{
+
+        text-align: center;
+        top: -35%;
+    }
+    .full-leaf{
+        width: 150px;
+        top: 0%;
+        left: 20%;
+    }
+}
+
+@media (max-width:512px) {
+    .all{
+        width: 350px;
+    }
+
+    .full-leaf{
+        top: 0%;
+        left: 20%;
+    }
+}
+/*end of welcome*/
 /*location*/
 iframe{
     width: 100%;
