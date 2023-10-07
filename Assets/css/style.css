@@ -24,6 +24,13 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 /* navbar  */
+#navbar {
+  /* Black background color */
+  position:sticky; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
 .navlogo{
     width:192px;
     height:146px;
@@ -59,9 +66,9 @@ margin-right:40px;
     }
     .navbar-collapse{
         /* font-family: David Libre; */
-        font-size: 19px;
+        font-size: 18px;
         font-style: normal;
-        font-weight: bold;
+        font-weight: 500;
         justify-content: right;
         margin-top: 10px;
         margin-left:10px;
@@ -72,11 +79,11 @@ margin-right:40px;
         .nav-link:hover{
             color: orange !important;
         }
+      
 }
-/* navbar  */
+/* navbar end /
 
 /* hero section */
-
 .rcorners2 {
     border-radius: 15px 50px 30px;
     background: #73AD21;
@@ -170,6 +177,7 @@ margin-right:40px;
         
  }
 }
+
  
 
    
