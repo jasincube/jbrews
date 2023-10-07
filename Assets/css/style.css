@@ -1,4 +1,4 @@
-body{
+footer{
 
     display: grid;
     font-size: 14px;
@@ -7,7 +7,7 @@ body{
 
 .ans{
     background-color: rgb(20, 19, 19);
-    background-image: url(./Group\ 92.png);
+    background-image: url(../images/Group\ 92.png);
     background-repeat: no-repeat;
 } 
 .footerlist{
@@ -59,7 +59,7 @@ p{
 @media (min-width:577px){
     .ans{
         background-color: rgb(20, 19, 19);width: fit-content;
-        background-image: url(./Group\ 92.png); width: fit-content;
+        background-image: url(../images/Group\ 92.png); width: fit-content;
         width:100%;
     }
     .box3{
