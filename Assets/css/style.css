@@ -12,7 +12,7 @@ footer{
 } 
 .footerlist{
     list-style: none;
-    text-decoration:;
+    /* text-decoration:; */
     text-align: start;
     
 }
