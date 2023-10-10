@@ -224,7 +224,7 @@ margin-right:40px;
 .game-section {
     padding: 30px;
     position: relative;
-    height: 1000px;
+    /* height: 1000px; */
     background-image: url(../images/Group\ 14.png);
   }
   .game-section .owl-stage {
