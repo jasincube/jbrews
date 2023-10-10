@@ -35,7 +35,7 @@ const swiper = new Swiper('.swiper', {
   // ans
   
   
-  const swiper = new Swiper(".swiper-im", {
+  const swiper1 = new Swiper(".swiper-im", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
