@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-
     <link rel="stylesheet" href="./Assets/css/style.css">
     <link rel="stylesheet" href="./Assets/css/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <!-- fonnts family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fuggles&family=Kaushan+Script&family=Montserrat&family=Pacifico&display=swap" rel="stylesheet"></head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fuggles&family=Kaushan+Script&family=Montserrat&family=Pacifico&display=swap" rel="stylesheet"></head>
 <body>
     
 
@@ -51,9 +51,6 @@
 
 
 <!-- hero section -->
-
-
-
     <div class="container">
         <div class="row">   
           <div class="col text ">
@@ -78,8 +75,7 @@
         </div>
     </div>
 
-<!--------- section end-------- -->
-
+<!--------- hero section end-------- -->
 
 <!--welcome to shop-->
 <div class="container">
@@ -101,12 +97,71 @@
   </div>
   <!--end of welcome to shop-->
  
+  <!--Events section-->
+
+  <section>
+    <div class="pt-5">
+      <div class="ev-pt1">
+        <span class="ev-w d-flex w-80 h-100">
+          <h4>Events</h4>
+          <img
+            src="./Assets/images/Background-images/Vector.png"
+            alt="j-brews"
+            class="img-fluid bg-ev"
+          />
+        </span>
+      </div>
+      <!-- Slider main container -->
+      <div class="swiper slider-ev mySwiper container-fluid mt-2 p-5">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide-ev">
+            <div class="card event-c">
+              <img src="./Assets/images/bday.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Birthday Fête</h5>
+                <p class="card-text">"Birthdays are better with coffee and cake."</p>        
+                <a class="btn btn-ev position-relative">Book Now <i class="fa-light fa-arrow-right-long"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ">
+            <div class="card event-c">
+              <img src="./Assets/images/sc-event.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Gatherings</h5>
+                <p class="card-text">"Creating memories, one sip at a time."</p>
+                <a class="btn btn-ev position-relative">Book Now <i class="fa-light fa-arrow-right-long"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ">
+            <div class="card event-c">
+              <img src="./Assets/images/table booking.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">TableTalk Teahouse</h5>
+                <p class="card-text">"Seating dreams, reserving moments."</p>
+                <a class="btn btn-ev position-relative">Book Now <i class="fa-light fa-arrow-right-long"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ">
+            <div class="card event-c">
+              <img src="./Assets/images/Date.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Coffee Connection</h5>
+                <p class="card-text">"Espresso your love."</p>
+                <a class="btn btn-ev position-relative">Book Now <i class="fa-light fa-arrow-right-long"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination "></div>
+      </div>      
+    </div>
+  </section>
+
+  <!--End Events section-->
   
-  
-
-
-
-
 <!--location-->
 <div class="container-fluid text-center ">
   <div class="row row-cols-1 row-cols-md-2">
@@ -128,7 +183,6 @@
   </div>
 </div>
 <!--end of location-->
-
 <!-- footer -->
 <footer class="">
   <div class="container-fluid ans text-center">
@@ -167,13 +221,7 @@
     <br><br>
   </footer>
 
-
-
-
 <!-- footer end -->
-
-
-
 
 <script>
   $("#submit-form").submit((e)=>{
@@ -193,13 +241,13 @@
       }
   })
 })
-</script>
-      
-
-  
-    
+</script> 
     <script src="./Assets/css/bootstrap/js/bootstrap.js"></script>
     <script src="https://kit.fontawesome.com/30ce972ddf.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/d0808f574e.js" crossorigin="anonymous"></script>
+    <script src="./Assets/css/bootstrap/js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/831adc927b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./Assets/js/main.js"></script>
 </body>
 </html>
