@@ -291,14 +291,22 @@ margin-right:40px;
 }
 
 .welcome a{
+    
     text-decoration: none;
     background-color: black;
     padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     color: white;
     border-radius: 10px 2px ;
     font-family: david libre;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.welcome a:hover{
+  background-color: #4A9DEC;
+ 
 }
 
 .full-leaf{
@@ -353,6 +361,124 @@ margin-right:40px;
     }
 }
 /*end of welcome*/
+
+/* event */
+.ev-pt1{
+  position: relative;
+  padding:  4.625rem 0rem;
+}
+.ev-w{
+  width: 10.875rem;
+  height: 4.0625rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ev-w>h4{
+  font-family:david libre;
+  font-weight:bolder ;
+  font-size: 2.9rem;
+  padding-top: 3.90rem;
+}
+
+.bg-ev{
+  opacity: 0.1;
+  height: 100%;
+  width: 100%;
+  transform: translate(-35%);
+}
+
+.ev-pt2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* image carousel */
+
+.slider-ev {
+  text-align: center;
+  font-size: 1.125rem;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.event-c{
+  padding: 1.875rem;
+  border:none !important;
+  cursor: pointer; 
+  height: auto;
+  & img{
+    height: 18.75rem;
+    border-radius: 0rem !important;
+
+  }
+  & .card-body{
+    background-color: black;
+
+    & .card-title{
+      color: white !important;
+    }
+
+    & .card-text{
+      color: white !important;
+    }
+  }
+}
+
+
+.btn-ev{ 
+border-color: rgba(255,132,0,1) !important;
+position: absolute;
+transform: translate(-50%, -50%); 
+width: 11.25rem; 
+height: 3.75rem; 
+text-decoration: none; 
+text-align: center; 
+margin-top: 2.5rem; 
+font-size: 1.25rem; 
+overflow: hidden; 
+background: rgb(230,231,19);
+background: linear-gradient(90deg, rgba(230,231,19,1) 9%, rgba(255,132,0,1) 100%);
+border-radius: 0px !important;
+font-size: larger !important;
+font-weight: bolder;
+translate: 50%;
+} 
+
+.btn-ev::before { 
+content: ""; 
+position: absolute; 
+width: 0; 
+height: 0; 
+left: 0; 
+bottom: 0; 
+border-style: solid; 
+border-color:white; 
+border-width: 5rem 6.25rem; 
+z-index: -1; 
+transform: rotate(360deg); 
+transition: 1s; 
+transform-origin: left; 
+} 
+
+.btn-ev:hover::before { 
+border-color:yellow; 
+transform: rotate(60deg); 
+}
+
+/* end of event */
+
 /*location*/
 iframe{
     width: 100%;
@@ -366,7 +492,7 @@ iframe{
 
 
   form{
-    padding: 2vw 2vw;
+    padding: 20px;
     width: 100%;
     max-width: 100%;
     border-radius: 10px;
@@ -380,7 +506,7 @@ form h3{
 
 form input, form textarea{
     border: 0;
-    margin: 10px 0;
+    margin: 10px ;
     padding: 10px;
     outline: none;
     background: #f5f5f5;
@@ -400,11 +526,11 @@ form button {
     border-radius: 30px;
 }
 
-input:hover,
-input:focus {
-    border: 2px solid #4A9DEC;
+input:hover {
+    border: 1px solid #4A9DEC;
     box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
     background-color: white;
+  
   }
 
 /* end of location */
