@@ -1,5 +1,5 @@
 // Event carousel : Kiran
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.slider-ev', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
@@ -11,7 +11,7 @@ const swiper = new Swiper('.swiper', {
       // when window width is >= 1200px
       1200: {
         slidesPerView: 2,
-        spaceBetween: 20,
+        spaceBetween:1 ,
       },
     },
   
@@ -29,3 +29,44 @@ const swiper = new Swiper('.swiper', {
   });
   
 // end of event
+
+  
+  
+  // ans
+  
+  
+  const swiper1 = new Swiper(".swiper-im", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 100,
+      modifier: 3,
+      slideShadows: true
+    },
+    loop: true,
+    pagination: {
+      el: ".page-dots",
+      clickable: true
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        
+      },
+      768: {
+        slidesPerView: 2
+      },
+      1024: {
+        slidesPerView: 3
+      },
+      1560: {
+        slidesPerView: 3
+      }
+    }
+  });
+  // image gallery end---
+  
+  a
