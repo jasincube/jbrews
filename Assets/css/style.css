@@ -30,6 +30,7 @@ body{
 }
 /* navbar  */
 #navbar {
+  z-index: 5;
   /* Black background color */
   position:sticky; /* Make it stick/fixed */
   top: 0; /* Stay on top */
