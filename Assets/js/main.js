@@ -12,4 +12,4 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
-// navbar
+// navbar end
