@@ -6,7 +6,11 @@
     --base-font-three:'Kaushan Script', cursive;
     --base-font-four:'Montserrat', sans-serif;
     --base-font-five:'Pacifico', cursive;
-
+    --base-color-first:#F2EA7E;
+    --base-color-second:#D97C0B;
+    --base-color-third:#F26D3D;
+    --base-color-fourth:#F24C3D;
+    --base-font-six: 'The Sans';
   }
   
 
@@ -22,6 +26,7 @@ body{
     background-image: url(../images/ellipse.png);
     background-repeat: no-repeat;
     font-family: 'Montserrat', sans-serif;
+    
 }
 /* navbar  */
 .navlogo{
@@ -43,7 +48,7 @@ margin-right:40px;
     gap:10px;
 }
 .nav-link:hover{
-    color: orange !important;
+    color: #ec8911 !important;
 }
 
 @media screen and (max-width:1000px) {
@@ -70,7 +75,7 @@ margin-right:40px;
             gap:0px;
         }
         .nav-link:hover{
-            color: orange !important;
+            color: #ec8911 !important;
         }
 }
 /* navbar  */
@@ -401,7 +406,7 @@ margin-right:40px;
     
     text-decoration: none;
     background-color: black;
-    padding: 5px;
+    padding: 8px;
     padding-left: 30px;
     padding-right: 30px;
     color: white;
@@ -412,7 +417,7 @@ margin-right:40px;
 }
 
 .welcome a:hover{
-  background-color: #4A9DEC;
+  background-color: #ec8911;
  
 }
 
@@ -622,7 +627,7 @@ form input, form textarea{
 
 form button {
     padding: 6px;
-    background: #ff5361;
+    background: var(--base-color-fourth);
     color: white;
     font-size: 18px;
     border: 0;
@@ -630,15 +635,19 @@ form button {
     cursor: pointer;
     width: 130px;
     margin: 5px;
-    border-radius: 30px;
+    border-radius: 29rem;
 }
 
 input:hover {
     border: 1px solid #4A9DEC;
     box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
     background-color: white;
-  
   }
+
+form button:hover {
+  background-color: var(--base-color-second);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 /* end of location */
 
@@ -650,7 +659,7 @@ footer{
 
   display: grid;
   font-size: 14px;
-  
+  font-family: var(--base-font-six);
 }
 
 .ans{
@@ -737,4 +746,18 @@ footer{
       color: orange;
   }
   
+}
+
+
+
+
+
+
+
+
+ul .fa-brands {
+  color: white;
+}
+ul .fa-brands:hover , .fa-brands:hover {
+  color: var(--base-color-third);
 }
