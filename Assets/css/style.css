@@ -25,7 +25,7 @@
 body{
     background-image: url(../images/ellipse.png);
     background-repeat: no-repeat;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     
 }
 /* navbar  */
@@ -44,7 +44,7 @@ body{
     margin-top:15px;
 }
 .navbar-collapse{
-/* font-family: David Libre; */
+font-family: var(--base-font-four);
 font-size: 23px;
 font-style: normal;
 font-weight: 500;
@@ -71,7 +71,7 @@ margin-right:40px;
         margin-top:0px;
     }
     .navbar-collapse{
-        /* font-family: David Libre; */
+        font-family: var(--base-font-four);
         font-size: 18px;
         font-style: normal;
         font-weight: 500;
@@ -481,7 +481,7 @@ margin-right:42%;
 
 .welcome h2{
     font-size:300%;
-    font-family:david libre;
+    font-family: var(--base-font-four);
     font-weight: 500;
 }
 
@@ -494,7 +494,7 @@ margin-right:42%;
     padding-right: 30px;
     color: white;
     border-radius: 10px 2px ;
-    font-family: david libre;
+    font-family: var(--base-font-four);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
@@ -571,7 +571,7 @@ margin-right:42%;
   transform: translate(-50%, -50%);
 }
 .ev-w>h4{
-  font-family:david libre;
+  font-family: var(--base-font-four);
   font-weight:bolder ;
   font-size: 2.9rem;
   padding-top: 3.90rem;
@@ -755,7 +755,7 @@ footer{
 
   display: grid;
   font-size: 14px;
-  font-family: var(--base-font-six);
+  font-family: var(--base-font-four);
 }
 
 .ans{
@@ -877,7 +877,7 @@ footer{
 .l-band .l-band__header-title {
   text-transform: capitalize;
   letter-spacing: 0.8px;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--base-font-four);
   font-weight: 900;
   font-size: clamp(3.4375rem, 3.25rem + 0.75vw, 4rem);
   background-color: #005baa;
@@ -936,7 +936,7 @@ footer{
 }
 .c-card__instrument {
   color: #dadada;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--base-font-four);
   font-weight: 300;
   padding: 0 1.563rem 4rem;
   line-height: 1.6;
@@ -1047,7 +1047,7 @@ footer{
 } 
 .menu-card-text{
   
-    font-family:david libre;
+    font-family: var(--base-font-four);
     font-weight:bolder ;
     font-size: 2.9rem;
     padding-top: 3.90rem;
