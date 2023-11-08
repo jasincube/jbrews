@@ -102,3 +102,16 @@ const swiper = new Swiper('.slider-ev', {
 
   //end of menu
 
+
+
+  // nav bar hide and show 
+
+function myToggle(){
+  var x =document.getElementById("navbarNav");
+  if (x.style.display=="none"){
+    x.style.display="block";
+  }
+  else{
+    x.style.display="none"
+  }
+}
