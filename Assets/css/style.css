@@ -366,7 +366,7 @@ margin-right:42%;
 @media (min-width:1440px) {
   .game-section{
     
-    width: 1348px;
+    width: auto;
     left: 54px;
     height:auto ;
     
